@@ -75,15 +75,6 @@ cooperative-kernel-regression/
 ├── notebooks/
 │   └── Final_Project.ipynb
 │
-├── src/
-│   └── main.py
-│
-├── figures/
-│   ├── fig1_data.png
-│   ├── fig3_convergence.pdf
-│   ├── fig14_noniid.pdf
-│   └── ...
-│
 ├── report/
 │   └── report.pdf
 │
