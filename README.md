@@ -34,6 +34,7 @@ The project is based on the minimization of a regularized kernel ridge regressio
 # Mathematical background
 
 We observe noisy samples
+
 \[
 y_i = f(x_i) + \varepsilon_i, \qquad \varepsilon_i \sim \mathcal{N}(0,\sigma^2),
 \]
@@ -45,6 +46,7 @@ k(x,x_j)=\exp\!\bigl(-(x-x_j)^2\bigr).
 \]
 
 Using a Nyström approximation with \(m\) landmarks, the optimization problem becomes:
+
 \[
 \alpha^\star
 =
