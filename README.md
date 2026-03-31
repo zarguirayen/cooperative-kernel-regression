@@ -31,7 +31,7 @@ The project is based on the minimization of a regularized kernel ridge regressio
 
 ---
 
-## Mathematical background
+# Mathematical background
 
 We observe noisy samples
 
