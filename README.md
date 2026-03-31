@@ -49,8 +49,7 @@ $$
 
 Using a Nyström approximation with $m$ landmarks, the optimization problem becomes:
 
-$$
-\alpha^\star
+$$\alpha^\star
 =
 \arg\min_{\alpha \in \mathbb{R}^m}
 \frac{\sigma^2}{2}\alpha^\top K_{mm}\alpha
