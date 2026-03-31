@@ -31,23 +31,25 @@ The project is based on the minimization of a regularized kernel ridge regressio
 
 ---
 
-# Mathematical background
+## Mathematical background
 
 We observe noisy samples
 
-\[
+$$
 y_i = f(x_i) + \varepsilon_i, \qquad \varepsilon_i \sim \mathcal{N}(0,\sigma^2),
-\]
+$$
+
 and approximate the target function using a kernel expansion:
-\[
-f(x) \approx \sum_{j \in \mathcal{M}} \alpha_j k(x,x_j),
+
+$$
+f(x) \approx \sum_{j \in \mathcal{M}} \alpha_j\, k(x,x_j),
 \qquad
-k(x,x_j)=\exp\!\bigl(-(x-x_j)^2\bigr).
-\]
+k(x,x_j)=\exp\bigl(-(x-x_j)^2\bigr).
+$$
 
-Using a Nyström approximation with \(m\) landmarks, the optimization problem becomes:
+Using a Nyström approximation with $m$ landmarks, the optimization problem becomes:
 
-\[
+$$
 \alpha^\star
 =
 \arg\min_{\alpha \in \mathbb{R}^m}
@@ -56,7 +58,7 @@ Using a Nyström approximation with \(m\) landmarks, the optimization problem be
 \frac{1}{2}\|y-K_{nm}\alpha\|_2^2
 +
 \frac{\nu}{2}\|\alpha\|_2^2.
-\]
+$$
 
 This problem is studied under three different frameworks.
 
