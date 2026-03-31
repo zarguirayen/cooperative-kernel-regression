@@ -58,7 +58,7 @@ Using a Nyström approximation with $m$ landmarks, the optimization problem beco
 \frac{1}{2}\|y-K_{nm}\alpha\|_2^2
 +
 \frac{\nu}{2}\|\alpha\|_2^2.
-
+```
 This problem is studied under three different frameworks.
 
 ---
