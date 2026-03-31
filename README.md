@@ -79,4 +79,5 @@ cooperative-kernel-regression/
 │   └── report.pdf
 │
 └── data/
-    └── README.md
+    └── first_database.pkl
+    └── second_database.pkl
