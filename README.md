@@ -31,7 +31,7 @@ The project is based on the minimization of a regularized kernel ridge regressio
 
 ---
 
-# Mathematical background
+## Mathematical background
 
 We observe noisy samples
 
@@ -49,7 +49,8 @@ $$
 
 Using a Nyström approximation with $m$ landmarks, the optimization problem becomes:
 
-$$\alpha^\star
+```math
+\alpha^\star
 =
 \arg\min_{\alpha \in \mathbb{R}^m}
 \frac{\sigma^2}{2}\alpha^\top K_{mm}\alpha
@@ -57,7 +58,6 @@ $$\alpha^\star
 \frac{1}{2}\|y-K_{nm}\alpha\|_2^2
 +
 \frac{\nu}{2}\|\alpha\|_2^2.
-$$
 
 This problem is studied under three different frameworks.
 
